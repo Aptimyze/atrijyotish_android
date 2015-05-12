@@ -1,0 +1,58 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <item
+        android:id="@+id/itmNative"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/m_native" />
+    <item
+        android:id="@+id/itmChart"
+        android:orderInCategory="100"
+        android:icon="@drawable/m_chart"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/itmGraha"
+        android:orderInCategory="100"
+        android:icon="@drawable/m_graha"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/itmDasa"
+        android:orderInCategory="100"
+        android:icon="@drawable/m_dasa"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/itmNDasa"
+        android:orderInCategory="100"
+        android:icon="@drawable/m_narayana_dasa"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/itmHelp"
+        android:orderInCategory="100"
+        android:icon="@drawable/m_help"
+        android:title="Help"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/itmSettings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/itmAbout"
+        android:orderInCategory="100"
+        android:title="@string/about"
+        app:showAsAction="never"/>
+
+</menu>
+
+
+<!-- 
+        android:title="Q" />
+        android:title="Ch"
+        android:title="CA"
+        android:title="I"
+        android:title="."
+
+ -->

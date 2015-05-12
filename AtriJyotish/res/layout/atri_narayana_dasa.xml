@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+ 
+    <TextView
+            android:id="@+id/Title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	    	android:gravity="left|top"
+	        android:textSize="20sp"
+		    android:padding="2dip"
+	    	android:text="@string/NDHelp"
+		    android:background="@color/yellow"
+		    android:textColor="@color/red"
+	       />
+    
+    <TextView
+            android:id="@+id/DasaName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:textColor="#ffffff"
+		    android:background="#000066"
+        	android:layout_below="@+id/Title"/>
+	        android:text="" />
+    
+    <ListView
+          android:id="@+id/MahaDasa"
+		  android:layout_width="match_parent"
+          android:layout_height="280dp"
+       	  android:ems="10"
+       	  android:layout_below="@+id/DasaName"/>
+    
+    <TextView
+            android:id="@+id/AntardasaName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+            android:layout_below="@+id/MahaDasa"
+		    android:padding="1dp"  
+		    android:background="#000066"
+	        android:textColor="#ffffff" />
+
+        <ListView
+          android:id="@+id/AntarDasa"
+	      android:layout_width="match_parent"
+          android:layout_height="300dp"
+       	  android:ems="10"
+       	  android:layout_below="@+id/AntardasaName"
+     />
+    
+</RelativeLayout>
+

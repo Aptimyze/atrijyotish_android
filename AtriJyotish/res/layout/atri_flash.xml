@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+     
+       <ImageView
+            android:id="@+id/imageViewP1"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:paddingBottom="50dp"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:paddingTop="3dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ganesh" />
+       
+       <TextView
+            android:id="@+id/lVersion"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/imageViewP1"
+	        style="@android:style/TextAppearance.Large"
+	        android:layout_centerHorizontal="true"
+	        android:text="@string/version" />
+       
+       <TextView
+            android:id="@+id/lInfo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/lVersion"
+	        android:layout_centerHorizontal="true"
+	        android:textSize="26sp"
+	        android:text="@string/vInfo" />
+       
+       <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/lInfo"
+	        android:layout_centerHorizontal="true"
+	        android:textSize="20sp"
+	        android:text="@string/email" />
+       
+</RelativeLayout>

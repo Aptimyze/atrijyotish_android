@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+** Module      : AtriJyotishCalc
+** File:       : AtriJyotishManifest.cpp
+** Description : Manifest of main Jyotish application
+**
+** Contact     : AstroOpenSource@gmail.com
+**
+** Web site    : http://AtriJyotishAndroid.sourceforge.net/
+** Download    : http://sourceforge.net/projects/atrijyotishandroid/
+**
+** This software is provided "as is", under GNU public license with 
+** NO WARRANTY OF ANY KIND, either express or implied.
+** No author or distributor accepts any responsibility for the consequences of using it,
+** or for whether it serves any particular purpose or works at all. In no event shall   
+** the authors or copyright holders be liable for any claim, damages or 
+** other liability, arising from the use or performance of this software.
+**
+-->
+
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.atrijyotish"
+    android:versionCode="6"
+    android:versionName="2.65" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/atrijyotish"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" 
+        android:screenOrientation="portrait"
+        android:logo="@drawable/ic_launcher">
+
+        <activity
+            android:name="org.atrijyotish.FlashActivity"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AtriJyotishActivity"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:windowSoftInputMode="adjustPan"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="org.atrijyotish" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Atri Jyotish</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="about">About</string>
+    
+    <string name="version">>> Atri Jyotish\n.. Knowledge Base\n.. Marriage Matching</string>
+    <string name="vInfo">Dedicated to my Gurus</string>
+    <string name="email">AstroOpenSource@gmail.com</string>
+    
+    <string name="pkgName1">Atri Jyotish</string>
+    <string name="pkgName2">Atri Jyotish Knowledge Base</string>
+    <string name="pkgName3">Atri Marriage Matching</string>
+    <string name="Dedication">Dedicated to my Gurus</string>
+    <string name="email">AstroOpenSource@gmail.com</string>
+    
+    
+    <string name="NDHelp">ATRI JYOTISH Select Dasa</string>
+    
+</resources>

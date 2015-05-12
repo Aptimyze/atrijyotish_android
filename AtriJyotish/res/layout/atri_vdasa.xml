@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+     
+    <TextView
+            android:id="@+id/DasaName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	    	android:gravity="left|top"
+	        android:textSize="20sp"
+	        android:textColor="#ff0000"
+	        android:text="Vimsottari dasa" />
+    
+    <ListView
+          android:id="@+id/AntarDasa"
+		  android:layout_width="match_parent"
+          android:layout_height="320dp"
+       	  android:ems="10"
+       	  android:layout_below="@+id/DasaName"/>
+    
+    <ListView
+          android:id="@+id/SelectedDasa"
+	      android:layout_width="match_parent"
+          android:layout_height="300dp"
+       	  android:ems="10"
+       	  android:layout_below="@+id/Seldasa"
+     />
+    
+    <TextView
+            android:id="@+id/Seldasa"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="24sp"
+            android:layout_below="@+id/AntarDasa"
+		    android:padding="1dp"  
+	        android:textColor="#ff0000"
+	        android:text="SelectedDasa (Select above list)" />
+    
+</RelativeLayout>
+

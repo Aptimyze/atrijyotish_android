@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_marginBottom="10dp" >
+  
+    android:layout_height="@dimen/txtSutra_height"
+    
+        <TableRow
+            android:paddingTop="1dp"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1"
+		    android:textSize="@dimen/txtSize" 
+        	android:layout_margin="0dp">
+        	    
+            <TextView
+                android:layout_column="1"
+                android:text="Native"
+	  	        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.2" 
+                android:layout_width="0dp" 
+                android:layout_marginLeft="4dp"
+	        	android:layout_marginRight="4dp">
+            </TextView>
+            
+            <TextView
+                android:layout_column="2"
+                android:text="Click on: Date/Time to select date/time"
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.8" 
+				android:layout_width="0dp"
+		        android:layout_marginRight="4dp"
+			/>
+        </TableRow>
+
+        <TableRow
+            android:paddingTop="1dp"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1"
+        	android:layout_margin="0dp">
+            
+            <TextView
+                android:layout_column="1"
+                android:text=" "
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.2" 
+                android:layout_width="0dp" 
+                android:layout_marginLeft="4dp"
+	        	android:layout_marginRight="4dp">
+            </TextView>
+            <TextView
+                android:layout_column="2"
+                android:text="Click on [Place] to select place"
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.8" 
+				android:layout_width="0dp"
+		        android:layout_marginRight="4dp"
+                />
+        </TableRow>
+        <TableRow
+            android:paddingTop="1dp"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1"
+        	android:layout_margin="0dp">
+            
+            <TextView
+                android:layout_column="1"
+                android:text="Place DB"
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.2" 
+                android:layout_width="0dp" 
+                android:layout_marginLeft="4dp"
+	        	android:layout_marginRight="4dp">
+            </TextView>
+            <TextView
+                android:layout_column="2"
+                android:text="Enter few characters in Place and click on view. Then select place from List"
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.8" 
+				android:layout_width="0dp"
+		        android:layout_marginRight="4dp"
+                />
+        </TableRow>
+        <TableRow    
+            android:paddingTop="10dp"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1">
+            
+            <TextView
+                android:layout_column="1"
+                android:text="Chart"
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.2" 
+                android:layout_width="0dp" 
+                android:layout_marginLeft="4dp"
+	        	android:layout_marginRight="4dp">
+                >
+            </TextView>
+            <TextView
+                android:layout_column="2"
+                android:text="Click on below ICON (on the chart) to display D-1/D-9/D-1+D-9"
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.8" 
+				android:layout_width="0dp"
+		        android:layout_marginRight="4dp"
+                />
+        </TableRow>
+
+       <TableRow
+            android:paddingTop="1dp"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1"
+        	android:layout_margin="0dp">
+        	    
+            <TextView
+                android:layout_column="1"
+                android:text="Graha"
+                android:layout_weight="0.2" 
+		        android:textSize="@dimen/txtSize" 
+                android:layout_width="0dp" 
+                android:layout_marginLeft="4dp"
+	        	android:layout_marginRight="4dp">
+            </TextView>
+            
+            <TextView
+                android:layout_column="2"
+                android:text="Graha information."
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.8" 
+				android:layout_width="0dp"
+		        android:layout_marginRight="4dp"
+			/>
+        </TableRow>
+        
+       <TableRow
+            android:paddingTop="1dp"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1"
+        	android:layout_margin="0dp">
+        	    
+            <TextView
+                android:layout_column="1"
+                android:text="Dasa"
+                android:layout_weight="0.2" 
+		        android:textSize="@dimen/txtSize" 
+                android:layout_width="0dp" 
+                android:layout_marginLeft="4dp"
+	        	android:layout_marginRight="4dp">
+            </TextView>
+            
+            <TextView
+                android:layout_column="2"
+                android:text="Select on a dasa. Selected Dasa displayed at bottom list. Antar dasa of selected dasa is updated on top list box."
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.8" 
+				android:layout_width="0dp"
+		        android:layout_marginRight="4dp"
+			/>
+        </TableRow>
+
+       <TableRow
+            android:paddingTop="1dp"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1"
+        	android:layout_margin="0dp">
+        	    
+            <TextView
+                android:layout_column="1"
+                android:text="."
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.2" 
+                android:layout_width="0dp" 
+                android:layout_marginLeft="4dp"
+	        	android:layout_marginRight="4dp">
+            </TextView>
+            
+            <TextView
+                android:layout_column="2"
+                android:text="."
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.8" 
+				android:layout_width="0dp"
+		        android:layout_marginRight="4dp"
+			/>
+        </TableRow>
+              <TableRow
+            android:paddingTop="1dp"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1"
+        	android:layout_margin="0dp">
+        	    
+            <TextView
+                android:layout_column="1"
+                android:text="Settings"
+                android:layout_weight="0.2" 
+		        android:textSize="@dimen/txtSize" 
+                android:layout_width="0dp" 
+                android:layout_marginLeft="4dp"
+	        	android:layout_marginRight="4dp">
+            </TextView>
+            
+            <TextView
+                android:layout_column="2"
+                android:text="Select [Settings] drop down menu to modify"
+		        android:textSize="@dimen/txtSize" 
+                android:layout_weight="0.8" 
+				android:layout_width="0dp"
+		        android:layout_marginRight="4dp"
+			/>
+        </TableRow>
+              <TableRow
+            android:paddingTop="1dp"
+        	android:layout_width="match_parent"
+        	android:layout_weight="1"
+        	android:layout_margin="0dp">
+        	    
+            <TextView
+                android:layout_column="1"
+                android:text="."
+                android:layout_weight="0.2" 
+		        android:textSize="@dimen/txtSize" 
+                android:layout_width="0dp" 
+                android:layout_marginLeft="4dp"
+	        	android:layout_marginRight="4dp">
+            </TextView>
+            
+            <TextView
+                android:layout_column="2"
+                android:text="Slide page or use menu DTP/Chart/Graha/dasa to move"
+                android:layout_weight="0.8" 
+		        android:textSize="@dimen/txtSize" 
+				android:layout_width="0dp"
+				android:textColor="#ff0000"
+		        android:layout_marginRight="4dp"
+			/>
+        </TableRow>
+              
+        <TableRow>    
+        <Button   
+          android:layout_column="2"
+          android:id="@+id/btnOK"
+		  android:text="OK"
+		  android:layout_width="80dp"
+		  android:layout_height="35dp"
+		  android:padding="2dip"
+		  android:textSize="20dp" 
+	      android:layout_centerHorizontal="true"
+		  android:gravity="center"
+          android:layout_weight="0.6" 
+          />
+        </TableRow>
+        
+        
+</TableLayout>
+        
