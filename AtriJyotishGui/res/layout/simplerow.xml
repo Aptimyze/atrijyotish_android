@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"  
+     android:id="@+id/rowTextView"   
+     android:layout_width="fill_parent"   
+     android:layout_height="wrap_content"  
+     android:padding="3dp"  
+     android:typeface = "monospace"
+     android:textColor = "#ff0000"
+     android:textSize="15sp" >  
+    </TextView>  
+    
+<!-- android:textSize="15sp"  for bigger font in Listbox -->

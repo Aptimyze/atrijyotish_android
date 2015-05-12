@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">AtriJyotishGui</string>
+    <string name="version">Atri Jyotish</string>
+    <string name="vInfo">Dedicated to my Gurus</string>
+    <string name="email">AstroOpenSource@gmail.com</string>
+    
+    <string name="PlacesList">p List</string>
+    <string name="cancel">Cancel</string>
+    <string name="time_set">Set time</string>
+    
+    <string name="eula">Eula: This Program was written to help learning and practice Vedic Jyotish. The software is based on the principles learned in Sri Jagannath guru Parampara (http://srijagannath.org/).  I hope that this program will be useful to all and in particular to the large number of followers of the SriJagannath Parampara. </string>
+    <string name="eula1">The software is free for personal use and may be distributed freely. This software is provided "as-is," without any express or implied warranty. <b>In no event shall the author be held liable for any damages arising from the use of this software.</b> </string>
+    <string name="eula2">The software uses Swiss Ephemeris for accurate calculations. The respective copyrights in regards to these files belong to Astrodienst AG and ported to Java by Thomas Mack (http://th-mack.de/) and author is grateful to them for the same.</string>
+    <string name="eula3">Atri Jyotish software Volunteers (AstroOpenSource@gmail.com)</string>
+    
+    <string name="updates">Upates in this version: First version: Calculate and display chart in South Indian format andVimsottari dasa. </string>
+    
+    <string name="eulahtml"><p><span style="color: #ff0000;">Upates in this version</span>: First version: Calculate and display chart in South Indian format andVimsottari dasa.</p></string>
+    <string name="eulahtml1"><p><span style="color: #ff0000;">Eula</span>: This Program was written to help learning and practice Vedic Jyotish. The software is based on the principles learned in Sri Jagannath guru Parampara (http://srijagannath.org/om/). I hope that this program will be useful to all and in particular to the large number of followers of the SriJagannath Parampara.</p></string>
+	<string name="eulahtml2"><p>The software is free for personal use and may be distributed freely. This software is provided "as-is," without any express or implied warranty. <span style="text-decoration: underline;"><strong><span style="color: #ff0000; text-decoration: underline;">In no event shall the author be held liable for any damages arising from the use of this software.</span></strong></span></p></string>
+	<string name="eulahtml3"><p>The software uses Swiss Ephemeris for accurate calculations. The respective copyrights in regards to these files belong to Astrodienst AG and ported to Java by Thomas Mack (http://th-mack.de/) and author is grateful to them for the same.</p></string>
+	
+	<string name="eulahtml4"><p><strong><span style="color: #333399;">Atri Jyotish software Volunteers (AstroOpenSource@gmail.com)</span></strong></p></string>
+	
+    <string name="Ayanamsa">Ayanamsa</string>
+		
+	
+    
+</resources>

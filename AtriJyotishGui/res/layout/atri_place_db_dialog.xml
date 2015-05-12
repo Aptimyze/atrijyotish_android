@@ -1,0 +1,163 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">    
+    >
+
+
+ <TableLayout>
+
+<TableRow      android:padding="5dip" >
+    
+	<TextView android:text="Place  "
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/editPlace"
+	      android:background="@drawable/back"
+		  android:inputType="text"	 
+	      android:paddingLeft="7dip" 
+          android:layout_width="270dp"
+          />
+</TableRow>
+ </TableLayout>
+
+ <TableLayout>
+ 
+<TableRow>
+		  android:padding="5dip">
+
+       <ImageButton 
+           android:id="@+id/btnFind"
+           android:src="@drawable/btn_search"
+           android:paddingBottom="5dip"
+          android:layout_width="40dp"
+          android:background="@android:color/transparent"
+       />
+<!--     		
+	<Button   
+	      android:id="@+id/btnView"
+		  android:text="view"
+          android:layout_width="70dp"
+          android:layout_height="40dp"/>
+ -->
+           
+    <Spinner
+          android:id="@+id/showPlaces"
+          android:layout_width="260dp"
+          android:layout_height="40dp"
+          android:prompt="@string/PlacesList"
+    />    
+    	
+</TableRow>
+ </TableLayout>
+
+<!--      android:background="@drawable/back"   -->
+ 
+ <TableLayout>
+ 
+<TableRow 		  android:padding="5dip">
+    									
+	<TextView android:text="Country"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/editCountry"
+		  android:inputType="text"	 
+	      android:background="@drawable/back"
+	      android:paddingLeft="7dip" 
+          android:layout_width="260dp"
+          android:layout_height="40dp"/>
+</TableRow>
+
+<TableRow		  android:padding="5dip">
+    
+	<TextView android:text="State"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/editState"
+		  android:inputType="text"	 
+	      android:background="@drawable/back"
+	      android:paddingLeft="7dip" 
+          android:layout_width="260dp"
+          android:layout_height="40dp"/>
+</TableRow>
+
+<TableRow		  android:padding="5dip">
+    
+	<TextView android:text="Longitude"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/editLongitude"
+		  android:inputType="text"	 
+	      android:background="@drawable/back"
+	      android:paddingLeft="7dip" 
+          android:layout_width="250dp"
+          android:layout_height="40dp"/>
+</TableRow>
+
+<TableRow		  android:padding="5dip">
+    			
+	<TextView android:text="Latitude"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/editLatitude"
+		  android:inputType="text"	 
+	      android:background="@drawable/back"
+	      android:paddingLeft="7dip" 
+          android:layout_width="250dp"
+          android:layout_height="40dp"/>
+</TableRow>
+
+<TableRow		  android:padding="5dip">
+    
+	<TextView android:text="TimeZone "
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/editTz"
+		  android:inputType="text"	 
+	      android:background="@drawable/back"
+	      android:paddingLeft="7dip" 
+          android:layout_width="250dp"
+          android:layout_height="40dp"/>
+</TableRow>
+
+ </TableLayout>
+    
+<TableRow
+   android:layout_height="wrap_content"
+   android:layout_width="match_parent">
+
+    <Button 
+       android:id="@+id/btnCancel"
+       android:text="Cancel"
+	   android:layout_weight="1"
+	   android:padding="3dip" 
+	   android:textSize="18sp"
+       android:background="@drawable/btn_red" 
+       style="@style/ButtonText"/>
+
+    <Button 
+       android:id="@+id/btnSelect"
+       android:text="Select"
+	   android:layout_weight="1"
+	   android:padding="3dip" 
+	   android:textSize="18sp"
+       android:background="@drawable/btn_green" 
+       style="@style/ButtonText"/>
+        
+<!--   
+	<Button   android:id="@+id/btnCancel"
+		  android:text="Cancel"
+		  android:layout_weight="1"
+		  android:padding="20dip" 
+          />
+									
+	<Button   android:id="@+id/btnSelect"
+		  android:text="Select"
+		  android:layout_weight="1"
+		  android:padding="20dip" 
+          />
+ -->
+									
+</TableRow>
+</TableLayout>

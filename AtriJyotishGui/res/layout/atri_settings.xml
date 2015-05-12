@@ -1,0 +1,162 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  
+    android:stretchColumns="*" 
+    android:background="#ffffff">    
+    
+<TableLayout
+    android:paddingTop="5dip"
+    android:paddingBottom="5dip"
+	android:textSize="15sp" >
+	
+  <TableRow>    
+  	<TextView 
+  	      android:text="Planet posiiton: "
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+  	<RadioGroup
+        android:id="@+id/rgPlanetPos"
+		android:orientation="vertical"
+	    android:background="@drawable/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/radioApparentPos"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Apparent" 
+            android:checked="true" />
+        
+        <RadioButton
+            android:id="@+id/radioTruePos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True" />
+    </RadioGroup>
+
+  </TableRow>
+</TableLayout>
+
+<TableLayout>
+  <TableRow	  		
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:paddingBottom="5dip"
+	android:textSize="15sp" >
+  	
+    <TextView android:text="Nodes calculation: "
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+          />
+
+  	<RadioGroup
+        android:id="@+id/rgNodes"
+		android:orientation="vertical"
+	    android:background="@drawable/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+       <RadioButton
+            android:id="@+id/radioMeanNodes"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Mean Nodes" 
+            android:checked="true" />
+        
+        <RadioButton
+            android:id="@+id/radioTrueNodes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="True Nodes" />
+    </RadioGroup>
+    
+</TableRow>
+</TableLayout>
+
+<TableLayout>
+  <TableRow	
+      android:paddingBottom="5dip">
+	
+    <TextView android:text="Sun Rise/Set: "
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/rgSunDisc"
+		android:orientation="vertical"
+	    android:background="@drawable/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/radioTipTrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tip True" />
+        
+        <RadioButton
+            android:id="@+id/radioTipApparent"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Tip Apparent" />
+
+        <RadioButton
+            android:id="@+id/radioCeneterTrue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Center True" />
+        
+        <RadioButton
+            android:id="@+id/radioCenterApparent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ceneter Apparent" />
+
+     </RadioGroup>
+   </TableRow>
+ </TableLayout>
+
+<TableLayout>
+  <TableRow>	
+    <TextView 
+        android:text="Ayanamsa: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+      
+    <Spinner
+          android:id="@+id/lstAyanamsa"
+          android:layout_width="200dp"
+          android:layout_height="40dp"
+          android:prompt="@string/Ayanamsa"
+    />
+        
+  </TableRow>
+</TableLayout>
+
+<TableLayout>
+  <TableRow
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <Button   
+        android:id="@+id/btnClose"
+		android:text="Close"
+		android:layout_weight="1"
+		android:padding="10dip" 
+          />
+									
+	<Button   
+	    android:id="@+id/btnSave"
+		android:text="Save"
+		android:layout_weight="1"
+		android:padding="10dip" 
+          />
+  </TableRow>
+</TableLayout>
+
+</TableLayout>

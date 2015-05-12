@@ -1,0 +1,242 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dip" 
+    android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">    
+    
+<TableLayout
+	android:textSize="15sp" >
+	
+<TableRow>    
+  	<TextView android:text="Name "
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+  	<EditText android:id="@+id/editName"
+		  android:inputType="text"
+		  android:text="Venkata"	 
+	      android:background="@drawable/back"
+	      android:paddingLeft="7dip" 
+	      android:layout_width="280dp"
+          android:layout_height="35dp"/>
+</TableRow>
+</TableLayout>
+
+<TableLayout>
+<TableRow	  		
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+	android:textSize="15sp" >
+  	
+    <TextView android:text="Date:"
+		  android:layout_weight="1"
+		  android:padding="1dip" 
+		  android:textSize="15sp"
+          />
+
+       <Button 
+           android:id="@+id/btnDate"
+           android:text="2012-08-20"
+		   android:layout_weight="1"
+		   android:padding="3dip" 
+		   android:textSize="18sp"
+           android:background="@drawable/btn_yellow" 
+           style="@style/ButtonText">
+       </Button>
+ 
+       <Button 
+           android:id="@+id/btnTime"
+           android:text="06:53:40"
+		   android:layout_weight="1"
+		   android:padding="1dip" 
+		   android:textSize="18sp"
+           android:background="@drawable/btn_yellow" 
+           style="@style/ButtonText">
+       </Button>
+
+</TableRow>
+</TableLayout>
+	<!--  android:onClick="clickMeTime" -->
+
+<TableLayout>
+
+<TableRow	
+		  android:padding="3dip">
+	
+   	<TextView android:text="Gender  "
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/editGender"
+		android:orientation="horizontal"
+	    android:background="@drawable/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+ 
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Male" 
+            android:checked="true" />
+
+<!-- 			android:layout_weight="1" -->
+        
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
+ </TableRow>
+ </TableLayout>
+
+ <TableLayout>
+
+<TableRow 		  android:padding="5dip">	
+
+       <ImageButton 
+           android:id="@+id/btnPlace"
+           android:src="@drawable/btn_place"
+           android:paddingBottom="5dip"
+		  android:scaleType="fitXY"
+          android:layout_width="45dp"
+          android:layout_height="45dp"
+          android:background="@android:color/transparent"
+       />
+
+	<EditText android:id="@+id/editPlace"
+	      android:background="@drawable/back"
+		  android:inputType="text"	 
+          android:layout_width="300dp"
+          android:layout_height="40dp"
+	      android:paddingLeft="7dip" 
+		  android:textSize="19sp"
+		  android:layout_alignParentBottom="true"
+          />
+</TableRow>
+ </TableLayout>
+
+    
+ <TableLayout>
+ 
+<TableRow 		  android:padding="2dip">
+    									
+	<TextView android:text="Country"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+	
+	<EditText android:id="@+id/editCountry"
+		  android:inputType="text"	 
+	      android:background="@drawable/back"
+	      android:paddingLeft="7dip" 
+          android:layout_width="220dp"
+          android:layout_height="35dp"/>
+</TableRow>
+
+<TableRow		  android:padding="2dip">
+    
+	<TextView android:text="State"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/editState"
+		  android:inputType="text"	 
+	      android:paddingLeft="7dip" 
+	      android:background="@drawable/back"
+          android:layout_width="220dp"
+          android:layout_height="35dp"/>
+</TableRow>
+
+<TableRow		  android:padding="2dip">
+    
+	<TextView android:text="Longitude"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/editLongitude"
+		  android:inputType="text"	 
+	      android:background="@drawable/back"
+	      android:paddingLeft="7dip" 
+          android:layout_width="200dp"
+          android:layout_height="35dp"/>
+</TableRow>
+
+<TableRow		  android:padding="2dip">
+    			
+	<TextView android:text="Latitude"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/editLatitude"
+		  android:inputType="text"	 
+	      android:background="@drawable/back"
+	      android:paddingLeft="7dip" 
+          android:layout_width="200dp"
+          android:layout_height="35dp"/>
+</TableRow>
+
+<TableRow		  android:padding="2dip">
+    
+	<TextView android:text="TimeZone "
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+	<EditText android:id="@+id/editTz"
+		  android:inputType="text"	 
+	      android:background="@drawable/back"
+	      android:paddingLeft="7dip" 
+          android:layout_width="190dp"
+          android:layout_height="35dp"/>
+</TableRow>
+
+ </TableLayout>
+
+ <TableLayout>
+ 
+<TableRow		  android:padding="2dip">
+ 	<TextView 
+		android:id="@+id/txtErrMsg"
+ 	    android:text=" "
+ 	    android:textColor="#ff0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+ </TableRow>
+ </TableLayout>
+	
+ 
+<TableRow
+   android:layout_height="wrap_content"
+   android:layout_width="match_parent">
+
+      <Button 
+           android:id="@+id/btnLoad"
+           android:text="Load"
+		   android:layout_weight="1"
+		   android:padding="3dip" 
+		   android:textSize="18sp"
+           android:background="@drawable/btn_blue" 
+           style="@style/ButtonText">
+       </Button>
+
+      <Button 
+           android:id="@+id/btnSave"
+           android:text="Save"
+		   android:layout_weight="1"
+		   android:padding="3dip" 
+		   android:textSize="18sp"
+           android:background="@drawable/btn_blue" 
+           style="@style/ButtonText">
+       </Button>
+
+      <Button 
+           android:id="@+id/btnCalc"
+           android:text="Calc"
+		   android:layout_weight="1"
+		   android:padding="3dip" 
+		   android:textSize="18sp"
+           android:background="@drawable/btn_green" 
+           style="@style/ButtonText">
+       </Button>
+      
+</TableRow>
+
+</TableLayout>
